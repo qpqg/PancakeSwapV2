@@ -2,10 +2,11 @@
 
 Script ini baru dicoba dalam Mode Testnet.
 
-Required Token Testnet yang bisa diambil dimari
+Requiriment:
+- web3 (pip install web3)
+- Token Testnet yang bisa diambil dimari
 https://testnet.binance.org/faucet-smart
-
-Dan juga untuk Login menggunakan mnemonic atau PrivateKeys.
+- Dan juga untuk Login menggunakan mnemonic atau PrivateKeys.
 ```py
 from mylibs.Settings import  SwapToken, real_path
 
