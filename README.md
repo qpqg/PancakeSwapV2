@@ -6,7 +6,8 @@ Requiriment:
 - web3 (pip install web3)
 - Token Testnet yang bisa diambil dimari
 https://testnet.binance.org/faucet-smart
-- Dan juga untuk Login menggunakan mnemonic atau PrivateKeys.
+- Dan juga untuk Login menggunakan mnemonic atau PrivateKeys. jangan buat diriku ketawa karena kebodohanmu menganggap ini adalah Phising, karena ini Pure menggunakan web3 dalam transaksi dan juga tidak ada didalam code yang mengandung fungsi untuk menyimpan pharase dalam mode apapun.
+
 ```py
 from mylibs.Settings import  SwapToken, real_path
 
