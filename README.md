@@ -34,3 +34,5 @@ SwapToken.setOutAmount(0.0001)
 SwapToken.setRouterContract(PancakeRouterContractV2, ContractAbi=RouterAbi)
 print(sites+SwapToken.ApprovSwap())
 ```
+Tx Test:
+https://testnet.bscscan.com/tx/0x190d1bbf2b6bc721f1ec8622efe876c9dffc48c6c609ba25aa8604eed6a59fdc
