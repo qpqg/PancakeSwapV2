@@ -1,7 +1,6 @@
 from web3 import HTTPProvider, Web3
 from time import time
 from os import path
-from sys import argv
 
 class ConnectionRPC(Web3):
     def __init__(self, rpcurl=None):
@@ -17,7 +16,6 @@ class ConnectionRPC(Web3):
             info = self.eth.account.from_key(mnemonic)
         self._private_keys = info.privateKey.hex()
         self._address_wallet = info.address
-        return self
         
     def getBalance(self):
         #untuk mudah dibaca manusia
