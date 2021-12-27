@@ -19,6 +19,7 @@ RouterAbi = real_path()
 mnemonic = "" #Mnemonic or PrivateKeys
 
 test_net = "https://data-seed-prebsc-1-s1.binance.org:8545"
+sites = "https://testnet.bscscan.com"
 
 SwapToken = SwapToken(test_net)
 SwapToken.Login(mnemonic)
